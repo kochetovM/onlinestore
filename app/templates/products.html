@@ -11,7 +11,7 @@
 	<div class="container">
 		<div class="content-product">
 			
-			<h3 class="future-men">MEN</h3>
+			<h3 class="future-men">All</h3>
 
 		{% for item in products %}	
 			
@@ -21,7 +21,8 @@
 					<img class="img-responsive" src="{{url_for( 'static', filename='images/products/'+item.image) }}" alt=" ">
 					</a>
 					<div class="value-in">
-						<p>{{item.name}}</p>
+						<!-- <p>{{item.name}}</p> -->
+						<p>chicago</p>
 						<span> {{ '${:.2f}'.format(item.price) }} </span>
 						<div class="clearfix"> </div>
 					</div>	
@@ -33,12 +34,12 @@
 
 
 		<div class="content-product">
-			<h3 class="future-women">WOMEN</h3>
+			<h3 class="future-women">CITY</h3>
 				<div class="col-md-4 col-d">
 			<div class=" men-grid in-men ">
 				<a href=""><img class="img-responsive" src="../static/images/me8.png" alt=""></a>
 					<div class="value-in">
-						<p>backpack</p>
+						<p>n-poster</p>
 						<span>$100</span>
 						<div class="clearfix"> </div>
 					</div>
@@ -58,7 +59,7 @@
 			<div class="men-grid in-men">
 				<a href=""><img class="img-responsive" src="../static/images/me4.png" alt=""></a>
 					<div class="value-in">
-						<p> shoes</p>
+						<p>b-Poster</p>
 						<span>$100</span>
 						<div class="clearfix"> </div>
 					</div>
@@ -78,7 +79,7 @@
 			<div class="men-grid in-men">
 				<a href=""><img class="img-responsive" src="../static/images/me5.png" alt=""></a>
 					<div class="value-in">
-						<p>T-Shirt</p>
+						<p>b-Poster</p>
 						<span>$100</span>
 						<div class="clearfix"> </div>
 					</div>
@@ -98,13 +99,13 @@
 	</div>
 
 	<!---->
-	<div class="about-us">
+	<!-- <div class="about-us">
 		<div class="container">
 		<h2>about us</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudexercitation</p>
 		<i class="round"> </i>
 		</div>
-	</div>
+	</div> -->
 
 </div>
 

@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/misha/Desktop/coding temple/Flask/last/forms/venv"
+set -gx VIRTUAL_ENV "/Users/misha/Desktop/coding temple/Flask/mystore/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

@@ -42,12 +42,19 @@ h1,h2,h3,h4,h5,h6,label,p{
 	position: relative;
 	display: inline-block;
 	outline: none;
-	color: #fff;
+	color: rgb(51, 10, 75);
 	text-decoration: none;
 	font-weight: 900;
 	font-size: 1.35em;
 	margin: 1em;
 }
+
+
+
+/* Top Head */
+
+
+
 .top-nav ul li  a:hover {
 	color: #aa9b77;
 }
@@ -76,16 +83,17 @@ h1,h2,h3,h4,h5,h6,label,p{
 	padding: 0;
 }
 .banner h1{
-	color: #fff;
-	font-size: 4.5em;
+	color: rgb(231, 63, 77);
+	font-size: 7em;
 	font-weight: 700;
 }
 .banner p{
-	color: #fff;
-	font-size: 1.5em;
-	line-height:1.8em;
-	width: 50%;
-  margin: 1em auto;
+	color: rgb(24, 20, 94);
+	font-size: 3em;
+	line-height:1em; 
+	width: 100%;
+	margin: 1em auto;
+		
 }
 a.down {
   padding: 12em 0 0;
@@ -579,18 +587,18 @@ h3.future-women:before {
 }
 /*----*/
 .about-us{
-	background:#aa9b77;
+	background:#90e0d6;
 	padding: 4em 0 9em;
 	text-align:center;
 	position:relative;
 	margin-top: 7em;
 }
 .about-us h2{
-	color:#837659;
+	color:#d32e49;
 	padding:1em 0;
-	font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: 600;
+	font-size: 1.5 em;
+  	text-transform: uppercase;
+  	font-weight: 600;
 }
 .about-us p{
 	color:#424242;
@@ -605,7 +613,7 @@ i.round{
 	background: url("../images/ab.png") no-repeat 0px 0px;
 	display:block;
 	width: 714px;
-	height: 254px;
+	height: 280px;
 	position: absolute;
 	top: 22%;
 	left: 27.5%;
@@ -1463,6 +1471,11 @@ a.theme i{
 	padding:3em 0;
 	color:#fff;
 }
+
+.footer-bottom a>p {
+	color:rgb(218, 38, 38);
+}
+
 .footer-grid{
 	color:#fff;
 }
