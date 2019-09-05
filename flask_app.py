@@ -1,5 +1,10 @@
-from app import app, db
-from app.models import User, Product
+
+#from flask import Flask
+# app = Flask(__name__)
+
+
+from app import  app, db
+# from app.models import User, Product
 
 @app.shell_context_processor
 def make_shell_context():
@@ -7,3 +12,7 @@ def make_shell_context():
 
 if __name__ == '__main__':
     app.run()
+
+
+
+

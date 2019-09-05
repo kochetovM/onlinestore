@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5,h6,label,p{
 	position: relative;
 	display: inline-block;
 	outline: none;
-	color: rgb(51, 10, 75);
+	color: rgb(235, 14, 14);
 	text-decoration: none;
 	font-weight: 900;
 	font-size: 1.35em;
@@ -83,12 +83,12 @@ h1,h2,h3,h4,h5,h6,label,p{
 	padding: 0;
 }
 .banner h1{
-	color: rgb(231, 63, 77);
+	color: rgb(235, 234, 224);
 	font-size: 7em;
 	font-weight: 700;
 }
 .banner p{
-	color: rgb(24, 20, 94);
+	color: black;
 	font-size: 3em;
 	line-height:1em; 
 	width: 100%;
@@ -587,8 +587,9 @@ h3.future-women:before {
 }
 /*----*/
 .about-us{
-	background:#90e0d6;
-	padding: 4em 0 9em;
+	background:white;
+	/* padding: 4em 0 9em;*/
+	padding: 0;
 	text-align:center;
 	position:relative;
 	margin-top: 7em;
@@ -1449,7 +1450,7 @@ a.at-in {
 
 /*--footer--*/
 .footer-top{
-	background:#535253;
+	background:#f1eef1;
 	padding:2em 0;
 }
 a.theme{
@@ -1460,14 +1461,14 @@ a.theme{
 	  padding: 0 3em;
 }
 a.theme i{
-	background: url("../images/img-sprite.png") no-repeat -100px -2px;
+  background: url("../images/img-sprite.png") no-repeat -100px -2px;
   display: inline-block;
   width: 35px;
   height: 35px;
   vertical-align: middle;
 }
 .footer-bottom{
-	background:#424242;
+	background:black;
 	padding:3em 0;
 	color:#fff;
 }
@@ -1515,7 +1516,7 @@ p.footer-class{
 	padding:0.5em 0 0;
 }
 p.footer-class a{
-	color:#aa9b77;
+	color:#f1f0eb;
 	text-decoration:none;
 }
 p.footer-class a:hover{
